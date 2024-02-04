@@ -1,0 +1,10 @@
+cd [select folder]
+mkdir genome
+cd genome
+wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz #you want the newest version
+gzip -d hg38.fa.gz
+
+
+#Now we can build the genome index of the human reference genome for STAR
+mkdir star-index
+STAR --runThreadN 10 --runMode genomeGenerate --genomeDir star-index --genomeFastaFiles hg38.fa
