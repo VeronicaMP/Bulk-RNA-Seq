@@ -16,7 +16,7 @@ It is designed for HPC clusters with SLURM but can be adapted for other systems.
 
 ## Documentation
 
-- - [Step 1: Genome Indexing](Step%201:%20Genome%20Indexing.md)  
+- [Step 1: Genome Indexing](Step%201:%20Genome%20Indexing.md)  
 - [Step 2: Prepare RSEM Reference](docs/step2_rsem.md)  
 - [Step 3: STAR + RSEM Alignment](docs/step3_star_rsem.md)  
 - [Step 4: Metadata creation](docs/step4_metadata.md)  
