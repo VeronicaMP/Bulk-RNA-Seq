@@ -16,13 +16,10 @@ It is designed for HPC clusters with SLURM but can be adapted for other systems.
 
 ## Documentation
 
-- [Step 1: Genome Indexing](Step%201:%20Genome%20Indexing.md)  
-- [Step 2: Prepare RSEM Reference](docs/step2_rsem.md)  
-- [Step 3: STAR + RSEM Alignment](docs/step3_star_rsem.md)  
-- [Step 4: Metadata creation](docs/step4_metadata.md)  
-- [Step 5: Import into R](docs/step5_import_R.md)  
-- [Step 6: Differential Expression (DESeq2)](docs/step6_deseq2.md)  
-- [Step 7: QC and Troubleshooting](docs/step7_qc.md)  
+- [Step 1: Genome Indexing]
+- [Step 2: Prepare Reference Reference]
+- [Step 3: STAR + RSEM Alignment]
+- [Step 4: Metadata creation]
 
 ## References
 
