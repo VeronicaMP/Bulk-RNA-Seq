@@ -1,0 +1,4 @@
+# Why?
+- Align FASTQ files with STAR
+- Use --quantMode TranscriptomeSAM so RSEM can quantify transcripts.
+- Quantify per-sample with RSEM.
