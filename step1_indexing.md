@@ -30,15 +30,18 @@ gzip -d hg38.fa.gz   # decompress
 ## 2. Download annotations
 
 # GENCODE v48
+```bash
 wget -O gencode.v48.annotation.gtf.gz \
   https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_48/gencode.v48.annotation.gtf.gz
 gzip -d gencode.v48.annotation.gtf.gz
+```
 
+```bash
 # GENCODE v45 (optional)
 wget -O gencode.v45.annotation.gtf.gz \
   https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/gencode.v45.annotation.gtf.gz
 gzip -d gencode.v45.annotation.gtf.gz
-
+```
 
 ## 3. Build STAR index
 
